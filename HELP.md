@@ -1,23 +1,15 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+git clone https://github.com/upenderc/helloapp.git
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.1/gradle-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.1/gradle-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.4.1/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Jersey](https://docs.spring.io/spring-boot/docs/2.4.1/reference/htmlsingle/#boot-features-jersey)
+build and compile
 
-### Guides
-The following guides illustrate how to use some features concretely:
+./gradlew clean build
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+#Run the below command
 
-### Additional Links
-These additional references should also help you:
+java -jar build/libs/helloapp-0.0.1-SNAPSHOT.jar
 
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
-
+# test 
+# Open any internet browser and type the following command
+# http://localhost:8080/mockList
